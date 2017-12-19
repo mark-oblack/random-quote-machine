@@ -1,0 +1,13 @@
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	width: 60%;
+}
+
+.quote-container h1,
+.quote-container h2 {
+	text-align: center;
+}
