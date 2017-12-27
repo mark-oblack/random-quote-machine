@@ -14,6 +14,6 @@ $(".getQuote").click(function() {
 	});
 });
 
-$(".fa-twitter").click(function() {
-	$(this).attr("href", "https://twitter.com/intent/tweet?" + this);
+$(".twitter").click(function() {
+	$(this).attr("href", "https://twitter.com/intent/tweet?");
 });

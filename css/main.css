@@ -1,13 +1,31 @@
+/*------------------
+Google Fonts
+------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body {
+	background-color: #DEC198;
+}
+
 .quote-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
-	margin: auto;
-	width: 60%;
+	justify-content: center;
+	min-height: 100vh;
+	line-height: 2em;
 }
 
-.quote-container h1,
-.quote-container h2 {
-	text-align: center;
+.quote {
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', serif;
+}
+
+.author {
+	font-size: 1.15em;
+}
+
+a {
+	text-decoration: none;
 }
