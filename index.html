@@ -8,15 +8,20 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script defer src="js/fontawesome-all.js"></script>
 </head>
-<body>
-	<div class="quote-container">
-		<h1 id="quoteDisplay"></h1>
+<body class="flex-container">
+	<h1>King of the Hill Quote Generator</h1>
+	<div class="quote-container flex-container">
+		<p id="quoteDisplay"></p>
 		<button onclick="newQuote()" class="getQuote">New Quote</button>
-		<a href="https://twitter.com/intent/tweet?text=" target="_blank" class="twitter-share">
-			<i class="fab fa-twitter"></i>
-		</a>
+		<button class="twitter-button">
+			<a href="https://twitter.com/intent/tweet?text=" target="_blank" class="twitter-share">
+				<i class="fab fa-twitter"></i>&nbsp;Tweet This
+			</a>
+		</button>
 	</div>
-
+	<footer>
+		<p>&copy;2017 Mark E. O'Black</p>
+	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/myscripts.js"></script>
 </body>

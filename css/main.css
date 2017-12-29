@@ -5,28 +5,71 @@ Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 body {
-	background-color: #DEC198;
-}
-
-.quote-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	background-color: #f3b757;
+	background-image: linear-gradient(180deg, #f3b757 18%, #e98202 74%);
 	min-height: 100vh;
-	line-height: 2em;
-}
-
-#quoteDisplay {
-	font-size: 1.5em;
-	font-family: 'Slabo 27px', serif;
-	text-align: center;
-}
-
-.author {
-	font-size: 1.15em;
+	width: 100%;
 }
 
 a {
 	text-decoration: none;
+	color: #fff;
 }
+
+button {
+	border: none;
+	padding: 15px 30px;
+	text-align: center;
+	font-size: 1em;
+	width: 165px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-container {
+	background-color: #fff;
+	line-height: 2.5em;
+	width: 85%;
+	margin: auto;
+	padding: 10px;
+}
+
+#quoteDisplay {
+	font-size: 1.75em;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+}
+
+.getQuote {
+	background-color: red;
+	color: #fff;
+	margin: 20px 0 10px 0;
+}
+
+.twitter-button {
+	background-color: #00aced;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

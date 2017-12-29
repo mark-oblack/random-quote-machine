@@ -24,7 +24,7 @@ var quotes = [
 	"\“That boy ain't right\" <br>- Hank Hill",
 	"\“Bwahhh!\" <br>- Hank Hill",
 	"\“I don't have an anger problem, I have an idiot problem!\” <br>- Hank Hill",
-	"\"I can show you how to make a bomb of a roll of toilet paper and a stick of dynamite.\" <br>-Dale Gribble",
+	"\"I can show you how to make a bomb out of a roll of toilet paper and a stick of dynamite.\" <br>-Dale Gribble",
 	"\"That's my purse! I don't know you!\" <br>-Bobby Hill",
 	"\"A youngster with a tool in both hands has no hands left to do drugs.\" <br>-Hank Hill",
 	"\"Pocket sand!\" <br>-Dale Gribble",
@@ -36,7 +36,7 @@ var quotes = [
 	"\"Education is the sleeping pill that dreams are made of.\" <br>-Peggy Hill",
 	"\"You cannot make authentic guacamole out of lima beans and Ritz crackers.\" <br>-Peggy Hill",
 	"\"Dang ol' destiny, man. Talkin' 'bout the planets align, just like a big ol' dipper, man.\" <br>-Boomhauer",
-	"\"For God's sake, Hank, act like an adult, and keep it down, guys, will you? I am trying to get through an article on vintage Camaros, and I've been on the same dang page for twenty minutes.\" <br>Boomhauer",
+	"\"For God's sake, Hank, act like an adult, and keep it down, guys, will you? I am trying to get through an article on vintage Camaros, and I've been on the same dang page for twenty minutes.\" <br>-Boomhauer",
 	"\"Yeah man talkin' bout wah-hahahaha....dang ol' boo, man.\" <br>-Boomhauer",
 	"\"I sure hope they have cigarettes in hell.\" <br>Dale Gribble"
 ];
