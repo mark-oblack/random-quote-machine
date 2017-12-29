@@ -4,21 +4,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Random Quote Generator</title>
-
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script defer src="js/fontawesome-all.js"></script>
 </head>
 <body>
 	<div class="quote-container">
-		<h1 class="quote">Test Quote</h1>
-		<h2 class="author">&ndash; Ron Swanson</h2>
-		<button class="getQuote">Get new quote</button>
-		<a href="" class="twitter">
+		<h1 id="quoteDisplay"></h1>
+		<button onclick="newQuote()" class="getQuote">New Quote</button>
+		<a href="https://twitter.com/intent/tweet?text=" target="_blank" class="twitter-share">
 			<i class="fab fa-twitter"></i>
 		</a>
 	</div>
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/myscripts.js"></script>
 </body>

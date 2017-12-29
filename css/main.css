@@ -17,9 +17,10 @@ body {
 	line-height: 2em;
 }
 
-.quote {
+#quoteDisplay {
 	font-size: 1.5em;
 	font-family: 'Slabo 27px', serif;
+	text-align: center;
 }
 
 .author {
