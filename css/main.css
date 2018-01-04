@@ -5,6 +5,10 @@ Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
 
+html {
+	height: 100%;
+}
+
 header {
 	margin-top: 25px;
 }
@@ -16,7 +20,8 @@ body {
 	color: #B4E5EA;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
-	min-height: 100vh;
+	min-height: 100%;
+	height: 100%;
 	width: 100%;
 }
 
@@ -55,10 +60,18 @@ button:hover {
 footer {
 	margin-bottom: 5px;
 	text-align: center;
+	margin-top: auto;
 }
 
 .wrapper {
 	width: 100%;
+	margin: auto;
+	min-height: 100%;
+}
+
+.center-content {
+	width: 100%;
+    margin: auto;
 }
 
 .flex-container {
@@ -93,7 +106,7 @@ footer {
 }
 
 .share-text {
-	margin-top: 25px;
+	margin: 25px 0 15px 0;
 }
 
 .fa-twitter {

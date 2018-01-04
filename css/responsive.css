@@ -9,6 +9,18 @@
 	.quote-container {
 		width: 500px;
 	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
 }
 
 @media all and (min-width: 980px) {
