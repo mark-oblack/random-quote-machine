@@ -5,6 +5,10 @@ Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
 
+header {
+	margin-top: 25px;
+}
+
 body {
 	/*background-color: #f3b757;
 	background-image: linear-gradient(180deg, #f3b757 18%, #e98202 74%);*/

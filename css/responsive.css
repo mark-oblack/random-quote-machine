@@ -1,11 +1,14 @@
 
 @media all and (min-width: 480px) {
-
+	.quote-container {
+		width: 70%;
+	}
 }
 
 @media all and (min-width: 736px) {
-
-	
+	.quote-container {
+		width: 500px;
+	}
 }
 
 @media all and (min-width: 980px) {
