@@ -9,21 +9,21 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script defer src="js/fontawesome-all.js"></script>
 </head>
-<body class="flex-container">
-	<header>
-		<h1>Random Quote Generator</h1>
-		<h2>King of the Hill Edition</h2>
-	</header>
-	<div class="quote-container flex-container">
-		<p id="quoteDisplay"></p>
-		<button onclick="newQuote()" class="getQuote">New Quote</button>
-	</div>
-	<p>Like this quote? Share it with your friends!</p>
-	<div class="twitter-button flex-container">
+<body>
+	<div class="wrapper flex-container">
+		<header>
+			<h1>Random Quote Generator</h1>
+			<h2>King of the Hill Edition</h2>
+		</header>
+		<div class="quote-container flex-container">
+			<p id="quoteDisplay"></p>
+			<button onclick="newQuote()" class="getQuote">New Quote</button>
+		</div>
+		<p class="share-text">Like this quote? Share it with your friends!</p>
 		<a href="https://twitter.com/intent/tweet?text=" target="_blank" class="twitter-share">
 			<i class="fab fa-twitter"></i>
-		</a>	
-	</div>
+		</a>
+	</div>	
 	<footer>
 		<p>&copy;2017 Mark E. O'Black</p>
 	</footer>

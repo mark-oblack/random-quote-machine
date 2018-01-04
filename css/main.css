@@ -22,7 +22,7 @@ body {
 
 h1 {
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	text-align: center;
 	margin: 10px 0;
 }
@@ -54,6 +54,11 @@ button:hover {
 
 footer {
 	margin-bottom: 5px;
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
 }
 
 .flex-container {
@@ -69,7 +74,7 @@ footer {
 	color: #3B3C3D;
 	line-height: 2.5em;
 	width: 85%;
-	margin: auto;
+	margin: 25px 0;
 	padding: 10px;
 }
 
@@ -87,26 +92,32 @@ footer {
 	margin: 20px 0 10px 0;
 }
 
-.twitter-button {
-	border: solid 5px #3B3C3D;
-	border-radius: 50%;
-	color: #fff;
-	margin: 10px 0 30px 0;
-	width: 50px;
-	height: 50px;
+.share-text {
+	margin-top: 25px;
 }
 
-.twitter-button:hover,
+.fa-twitter {
+	font-size: 1.8em;
+	color: #3B3C3D;
+	border: solid 5px #3B3C3D;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px 0 30px 0;
+}
+
 .fa-twitter:hover {
 	border-color: #ECF0F1;
 	color: #ECF0F1;
 }
 
 .fa-twitter {
-	font-size: 1.75em;
+	font-size: 1.8em;
 	color: #3B3C3D;
+	border: solid 5px #3B3C3D;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px 0 30px 0;
 }
-
 
 
 
