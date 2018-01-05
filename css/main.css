@@ -55,6 +55,7 @@ button:hover {
 	cursor: pointer;
 	border-color: #1DABB8;
 	color: #1DABB8;
+	transition: 0.25s ease;
 }
 
 footer {
@@ -121,6 +122,7 @@ footer {
 .fa-twitter:hover {
 	border-color: #ECF0F1;
 	color: #ECF0F1;
+	transition: 0.25s ease;
 }
 
 .fa-twitter {
