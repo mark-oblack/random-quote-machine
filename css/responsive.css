@@ -19,18 +19,6 @@
 	}
 
 	p {
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
-}
-
-@media all and (min-width: 980px) {
-
-}
-
-@media all and (min-width: 1280px) {
-
-}
-
-@media all and (max-width: 1690px) {
-
 }

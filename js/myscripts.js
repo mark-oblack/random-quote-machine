@@ -36,7 +36,7 @@ var quotes = [
 	"\"Education is the sleeping pill that dreams are made of.\" <br>-Peggy Hill",
 	"\"You cannot make authentic guacamole out of lima beans and Ritz crackers.\" <br>-Peggy Hill",
 	"\"Dang ol' destiny, man. Talkin' 'bout the planets align, just like a big ol' dipper, man.\" <br>-Boomhauer",
-	"\"For God's sake, Hank, act like an adult, and keep it down, guys, will you? I am trying to get through an article on vintage Camaros, and I've been on the same dang page for twenty minutes.\" <br>-Boomhauer",
+	// "\"For God's sake, Hank, act like an adult, and keep it down, guys, will you? I am trying to get through an article on vintage Camaros, and I've been on the same dang page for twenty minutes.\" <br>-Boomhauer",
 	"\"Yeah man talkin' bout wah-hahahaha....dang ol' boo, man.\" <br>-Boomhauer",
 	"\"I sure hope they have cigarettes in hell.\" <br>Dale Gribble"
 ];
